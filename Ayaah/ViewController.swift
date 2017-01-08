@@ -22,6 +22,8 @@ class ViewController: UIViewController {
         content.body = "هو الله الذي لا إله إلا هو الحي القيوم"
         content.badge = 1       // it means that the app will put 1 on the Icon badge
         content.categoryIdentifier = "readingCategory"
+        
+        
         content.sound = UNNotificationSound.default()
         
         //let url = Bundle.main.url(forResource: "Images/1231w", withExtension: "gif")
